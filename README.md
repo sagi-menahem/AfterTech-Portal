@@ -52,7 +52,7 @@
     <tr>
       <td align="center" valign="top" colspan="2">
         <img src="docs/screenshots/marketing-widget-open-desktop.png" alt="The same agent embedded in the AfterTech marketing site" width="640" />
-        <br/><sub><b>The same agent, embedded cross-origin in the Astro marketing site</b></sub>
+        <br/><sub><b>The same agent, embedded cross-origin in the Next.js marketing site</b></sub>
       </td>
     </tr>
   </table>
@@ -137,7 +137,7 @@ a chat widget embedded cross-origin in the agency's marketing site, keyed only b
                      │  (dashboard) admin: clients, leads, issues,     │
                      │              agent analytics, audit log          │
    marketing site ──►│  /api/chat            streaming, CORS-scoped    │
-   (Astro, separate) │  /api/leads           contact form → lead        │
+   (Next, separate)  │  /api/leads           contact form → lead        │
                      │  /api/whatsapp/webhook  idempotent inbound      │
    WhatsApp ────────►│  /api/cron/*          keepalive · reconcile     │
                      └───┬────────────┬───────────┬──────────┬─────────┘
@@ -197,7 +197,7 @@ own history with a reset keyword. The handler returns 200 promptly so a slow ans
 trigger a redelivery storm.
 
 ### Embedded Widget
-The marketing site is a separate Astro app on a different origin, so the widget talks to
+The marketing site is a separate Next.js app on a different origin, so the widget talks to
 `/api/chat` cross-origin against an explicit allow-list with a handled preflight, and sends no
 credentials — widget sessions are anonymous by design, identified by a client-generated
 session key the server validates. The endpoint carries both a per-IP limit and a global daily
