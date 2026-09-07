@@ -1,4 +1,4 @@
-![AfterTech Portal — client operations meet grounded AI](assets/brand/banner.svg)
+![AfterTech Portal — client operations meet grounded AI](assets/brand/banner.png)
 
 # AfterTech Portal
 
