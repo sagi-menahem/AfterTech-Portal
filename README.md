@@ -17,7 +17,7 @@ A client portal for AfterTech, with account and billing workflows and a Hebrew-f
 <details>
 <summary>Mobile, English and embedded chat views</summary>
 
-<img src="docs/screenshots/portal-gateway-he-mobile.png" alt="Portal support widget on mobile" width="320" />
+<img src="docs/screenshots/portal-gateway-he-mobile.png" alt="Portal gateway on mobile with the support chat closed" width="320" />
 
 ![English portal gateway](docs/screenshots/portal-gateway-en-desktop.png)
 ![Support widget embedded in the AfterTech website](docs/screenshots/marketing-widget-open-desktop.png)
