@@ -62,5 +62,5 @@ The project includes automated tests, Hebrew-language agent evaluations and prod
 
 ---
 
-Built by **[Sagi Menahem](https://www.sagimenahem.tech/)**, founder of **[AfterTech](https://www.after-tech.co.il/)**.
+Built by **[Sagi Menahem](https://www.sagimenahem.com/)**, founder of **[AfterTech](https://www.after-tech.co.il/)**.
 [LinkedIn](https://www.linkedin.com/in/sagi-menahem/) · [Contact](mailto:sagiia1997@gmail.com)
